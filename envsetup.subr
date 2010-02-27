@@ -1,5 +1,5 @@
 #!/bin/bash
-# -*- mode: shell-script; mode:flyspell-prog; -*-
+# -*- mode: shell-script; mode: flyspell-prog; -*-
 
 scriptdir=$(dirname ${BASH_ARGV[0]})
 if [[ ! -f $scriptdir/func.subr ]]; then
