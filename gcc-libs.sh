@@ -82,7 +82,7 @@ function build() {
     cd $builddir
     ../$gcc/configure --target=$target --prefix=$prefix \
         --mandir=$prefix/share/man --infodir=$prefix/share/info \
-        --enable-languages="c,c++" --enable-interwork --enable-multilib \
+        --enable-languages="c" --enable-interwork --enable-multilib \
         --with-newlib \
         --with-gnu-as --with-gnu-ld \
         --disable-libmudflap --disable-libgomp --disable-libssp \
